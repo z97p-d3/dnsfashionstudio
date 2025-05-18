@@ -1,0 +1,82 @@
+2025-05-10T00:35:39+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: f48423a230506
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T00:35:41+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: ba931a8b258c5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T09:39:25+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 42883123734f1
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T09:39:26+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 7650ee6e461bb
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T18:47:24+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 70040f1deba2c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T18:47:24+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 67c065f18180d
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T18:47:24+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 6b5580185e0a6
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T18:47:24+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 81920b033b0a0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-10T22:09:10+00:00 DEBUG DELETE https://api.paypal.com/v1/notifications/webhooks/29U28965CJ3543541
+Response Debug ID: dec464bf03a3d
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"name":"INVALID_RESOURCE_ID","message":"Resource id is invalid","debug_id":"dec464bf03a3d","information_link":"https://developer.paypal.com/docs/api/webhooks/#errors","details":[],"links":[]}
+

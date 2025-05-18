@@ -1,0 +1,25 @@
+2025-05-11T02:03:06+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Task.php(388): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Task.php(483): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Task->possibly_track_completion()
+#4 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(406): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Task->get_json()
+#5 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/API/OnboardingTasks.php(766): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->get_json()
+#6 [internal function]: Automattic\WooCommerce\Admin\API\OnboardingTasks->Automattic\WooCommerce\Admin\API\{closure}()
+#7 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/API/OnboardingTasks.php(764): array_map()
+#8 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/rest-api/class-wp-rest-server.php(1149): Automattic\WooCommerce\Admin\API\OnboardingTasks->get_tasks()
+#9 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/rest-api/class-wp-rest-server.php(996): WP_REST_Server->respond_to_request()
+#10 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/rest-api/class-wp-rest-server.php(398): WP_REST_Server->dispatch()
+#11 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/rest-api.php(394): WP_REST_Server->serve_request()
+#12 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(307): rest_api_loaded()
+#13 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#14 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/plugin.php(524): WP_Hook->do_action()
+#15 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp.php(398): do_action_ref_array()
+#16 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp.php(770): WP->parse_request()
+#17 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/functions.php(1330): WP->main()
+#18 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-blog-header.php(16): wp()
+#19 /home/u470425667/domains/dnsfashionstudio.com/public_html/index.php(17): require('/home/u47042566...')
+#20 {main}
+  thrown en /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php en la línea 130
+

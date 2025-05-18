@@ -1,0 +1,71 @@
+2025-05-09T02:51:37+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\StoreApi\Routes\V1\AbstractCartRoute::get_cart_token() in /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-store-api-token.php:59
+Stack trace:
+#0 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-session.php(832): WCPay\Platform_Checkout\WooPay_Store_Api_Token->get_cart_token()
+#1 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-session.php(774): WCPay\WooPay\WooPay_Session::init_store_api_token()
+#2 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-checkout.php(217): WCPay\WooPay\WooPay_Session::get_woopay_minimum_session_data()
+#3 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-woopay-tracker.php(642): WCPay\WC_Payments_Checkout->get_payment_fields_js_config()
+#4 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(307): WCPay\WooPay_Tracker->add_frontend_tracks_scripts()
+#5 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#7 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/general-template.php(3058): do_action()
+#8 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/themes/safeguard/footer.php(146): wp_footer()
+#9 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template.php(770): require_once('/home/u47042566...')
+#10 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template.php(716): load_template()
+#11 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/general-template.php(92): locate_template()
+#12 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/themes/safeguard/page.php(52): get_footer()
+#13 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template-loader.php(106): include('/home/u47042566...')
+#14 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-blog-header.php(19): require_once('/home/u47042566...')
+#15 /home/u470425667/domains/dnsfashionstudio.com/public_html/index.php(17): require('/home/u47042566...')
+#16 {main}
+  thrown en /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-store-api-token.php en la línea 59
+
+2025-05-09T03:40:43+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\StoreApi\Routes\V1\AbstractCartRoute::get_cart_token() in /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-store-api-token.php:59
+Stack trace:
+#0 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-session.php(832): WCPay\Platform_Checkout\WooPay_Store_Api_Token->get_cart_token()
+#1 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-session.php(774): WCPay\WooPay\WooPay_Session::init_store_api_token()
+#2 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-checkout.php(217): WCPay\WooPay\WooPay_Session::get_woopay_minimum_session_data()
+#3 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-checkout.php(548): WCPay\WC_Payments_Checkout->get_payment_fields_js_config()
+#4 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-checkout.php(166): WCPay\WC_Payments_Checkout->load_checkout_scripts()
+#5 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(307): WCPay\WC_Payments_Checkout->maybe_load_checkout_scripts()
+#6 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#8 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/templates/checkout/form-checkout.php(66): do_action()
+#9 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u47042566...')
+#10 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(313): wc_get_template()
+#11 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(67): WC_Shortcode_Checkout::checkout()
+#12 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output()
+#13 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper()
+#14 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/shortcodes.php(394): WC_Shortcodes::checkout()
+#15 [internal function]: do_shortcode_tag()
+#16 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/shortcodes.php(266): preg_replace_callback()
+#17 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(307): do_shortcode()
+#18 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#19 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/post-template.php(253): apply_filters()
+#20 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/themes/safeguard/page.php(32): the_content()
+#21 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template-loader.php(106): include('/home/u47042566...')
+#22 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-blog-header.php(19): require_once('/home/u47042566...')
+#23 /home/u470425667/domains/dnsfashionstudio.com/public_html/index.php(17): require('/home/u47042566...')
+#24 {main}
+  thrown en /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-store-api-token.php en la línea 59
+
+2025-05-09T07:00:52+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\StoreApi\Routes\V1\AbstractCartRoute::get_cart_token() in /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-store-api-token.php:59
+Stack trace:
+#0 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-session.php(832): WCPay\Platform_Checkout\WooPay_Store_Api_Token->get_cart_token()
+#1 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-session.php(774): WCPay\WooPay\WooPay_Session::init_store_api_token()
+#2 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-wc-payments-checkout.php(217): WCPay\WooPay\WooPay_Session::get_woopay_minimum_session_data()
+#3 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/class-woopay-tracker.php(642): WCPay\WC_Payments_Checkout->get_payment_fields_js_config()
+#4 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(307): WCPay\WooPay_Tracker->add_frontend_tracks_scripts()
+#5 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/plugin.php(476): WP_Hook->do_action()
+#7 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/general-template.php(3058): do_action()
+#8 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/themes/safeguard/footer.php(146): wp_footer()
+#9 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template.php(770): require_once('/home/u47042566...')
+#10 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template.php(716): load_template()
+#11 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/general-template.php(92): locate_template()
+#12 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/themes/safeguard/woocommerce.php(48): get_footer()
+#13 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-includes/template-loader.php(106): include('/home/u47042566...')
+#14 /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-blog-header.php(19): require_once('/home/u47042566...')
+#15 /home/u470425667/domains/dnsfashionstudio.com/public_html/index.php(17): require('/home/u47042566...')
+#16 {main}
+  thrown en /home/u470425667/domains/dnsfashionstudio.com/public_html/wp-content/plugins/woocommerce-payments/includes/woopay/class-woopay-store-api-token.php en la línea 59
+

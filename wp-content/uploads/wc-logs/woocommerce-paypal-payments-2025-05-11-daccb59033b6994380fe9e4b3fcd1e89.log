@@ -1,0 +1,10 @@
+2025-05-11T02:04:14+00:00 DEBUG DELETE https://api.paypal.com/v1/notifications/webhooks/29U28965CJ3543541
+Response Debug ID: 1ff9f9992a5a4
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"name":"INVALID_RESOURCE_ID","message":"Resource id is invalid","debug_id":"1ff9f9992a5a4","information_link":"https://developer.paypal.com/docs/api/webhooks/#errors","details":[],"links":[]}
+

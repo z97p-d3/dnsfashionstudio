@@ -1,0 +1,69 @@
+2022-06-15T15:52:54+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 6c1a01410984c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2022-06-15T15:52:56+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/designypatronesdns.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["PPCP"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 9d555544143d2
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-15T15:52:57+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/designypatronesdns.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 98578c3d1d88c
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-15T16:02:11+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/designypatronesdns.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["PPCP"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 440a15d57402c
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-15T16:02:12+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/designypatronesdns.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 3ff2e795dded1
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-15T16:28:56+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/designypatronesdns.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["PPCP"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: e26a0ee042bfa
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2022-06-15T16:28:56+00:00 DEBUG POST https://connect.woocommerce.com/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"partner_logo_url":"https:\/\/connect.woocommerce.com\/images\/woocommerce_logo.png","return_url":"https:\/\/designypatronesdns.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway","return_url_description":"Volver a tu tienda.","show_add_credit_card":true},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","FUTURE_PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","VAULT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 89c72ce674536
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+

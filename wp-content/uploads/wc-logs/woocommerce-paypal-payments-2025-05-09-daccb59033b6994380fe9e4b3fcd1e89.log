@@ -1,0 +1,36 @@
+2025-05-09T05:28:39+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 1fa2d1c4baec0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-09T05:28:40+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 816ca43458f35
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-09T15:23:01+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: b23361c05fbb2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2025-05-09T15:23:06+00:00 DEBUG POST https://api.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 54c4edb55c281
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

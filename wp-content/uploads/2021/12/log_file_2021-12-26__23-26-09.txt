@@ -1,0 +1,46 @@
+
+---Downloaded files---
+The import files for: Safeguard Demo were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://stepnik-cia.com
+Data file = /home/u799486635/domains/stepnik-cia.com/public_html/wp-content/uploads/2021/12/demo-content-import-file_2021-12-26__23-26-09.xml
+Widget file = /home/u799486635/domains/stepnik-cia.com/public_html/wp-content/uploads/2021/12/demo-widgets-import-file_2021-12-26__23-26-09.json
+Customizer file = /home/u799486635/domains/stepnik-cia.com/public_html/wp-content/uploads/2021/12/demo-customizer-import-file_2021-12-26__23-26-09.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+WP Default Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Mailchimp Sign-Up Form - No Title - Widget already exists
+WP Tab Widget by MyThemeShop - No Title - Widget already exists
+
+Services Sidebar : 
+
+Services Categories - No Title - Widget already exists
+
+Shop sidebar : 
+
+Product Search - No Title - Widget already exists
+Product Categories - Product categories - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Products by Rating list - Top rated products - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

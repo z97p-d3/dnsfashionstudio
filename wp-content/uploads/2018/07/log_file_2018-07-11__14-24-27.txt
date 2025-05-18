@@ -1,0 +1,40 @@
+
+---Downloaded files---
+The import files for: Security Demo were successfully downloaded!
+Initial max execution time = 600
+Files info:
+Site URL = http://safeguard.templines.org
+Data file = /var/www/safeguard/data/www/safeguard.templines.org/wp-content/uploads/2018/07/demo-content-import-file_2018-07-11__14-24-27.xml
+Widget file = /var/www/safeguard/data/www/safeguard.templines.org/wp-content/uploads/2018/07/demo-widgets-import-file_2018-07-11__14-24-27.json
+Customizer file = /var/www/safeguard/data/www/safeguard.templines.org/wp-content/uploads/2018/07/demo-customizer-import-file_2018-07-11__14-24-27.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+WP Default Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Recent Comments - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Blog Sidebar : 
+
+Search - No Title - Imported
+MailChimp Sign-Up Form - No Title - Imported
+WP Tab Widget by MyThemeShop - No Title - Imported
+
+Services Sidebar : 
+
+Services Categories - No Title - Imported
+Booked Calendar - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

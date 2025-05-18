@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Weather 1.0\n"
+"POT-Creation-Date: 2017-09-07 01:42+0600\n"
+"PO-Revision-Date: 2017-09-07 01:42+0600\n"
+"Last-Translator: \n"
+"Language-Team: wpaddons.net <wpaddons.net@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x;_n_noop;_x;_nx;_n;__;"
+"_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/templates/demo-content.php:8
+msgid "WP Weather demo content"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:9 widget.php:17
+msgid "WP Weather"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:11
+msgid "WP Addons"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:12 widget.php:18
+msgid "Displays weather info"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:16
+msgid "Layout/style"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:19
+msgid "Style one (default)"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:20
+msgid "Style two"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:21
+msgid "Style three"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:22
+msgid "Style four"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:23
+msgid "Style five"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:26
+#: addons/vc_extend/wpweather-vc-addon.php:54
+msgid "Select an unit"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:31
+msgid "Location"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:34
+msgid ""
+"i.e: London, UK or New York City, NY. Find Your Location here - http://"
+"openweathermap.org/find"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:39
+msgid "API Key"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:41
+msgid "Get your API Key from here - http://openweathermap.org/appid#get"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:46
+msgid "Units"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:49 widget.php:119
+msgid "F"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:50 widget.php:120
+msgid "C"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:59
+msgid "Forecast"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:62
+msgid "1 Day"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:63
+msgid "2 Days"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:64
+msgid "3 Days"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:65
+msgid "4 Days"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:66
+msgid "5 Days"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:67 widget.php:131
+msgid "Disable"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:71
+msgid "Select forecast day"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:76
+msgid "Custom City Name"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:78
+msgid "Enter custom city name"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:83
+msgid "Text Color"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:86
+#: addons/vc_extend/wpweather-vc-addon.php:95
+#: addons/vc_extend/wpweather-vc-addon.php:104
+#: addons/vc_extend/wpweather-vc-addon.php:117
+#: addons/vc_extend/wpweather-vc-addon.php:125
+msgid "Design options"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:87
+msgid "Select text color"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:92
+msgid "Apply overlay ?"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:96
+msgid "Background overlay color"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:101
+msgid "Select color"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:105
+msgid "Select background overlay color"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:114
+msgid "Enable box shadow?"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:118
+msgid "Enable material style box shadow"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:123
+msgid "Css"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:130
+msgid "Extra class name"
+msgstr ""
+
+#: addons/vc_extend/wpweather-vc-addon.php:132
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: widget.php:83
+msgid "Weather"
+msgstr ""
+
+#: widget.php:99
+msgid "Title:"
+msgstr ""
+
+#: widget.php:105
+msgid "Location:"
+msgstr ""
+
+#: widget.php:105
+msgid "Find Your Location"
+msgstr ""
+
+#: widget.php:106
+msgid "(i.e: London,UK or New York City,NY)"
+msgstr ""
+
+#: widget.php:112
+msgid "API key"
+msgstr ""
+
+#: widget.php:112
+msgid "How to get your API Key?"
+msgstr ""
+
+#: widget.php:118
+msgid "Units:"
+msgstr ""
+
+#: widget.php:124
+msgid "Forecast:"
+msgstr ""
+
+#: widget.php:128
+#, php-format
+msgid "%d day"
+msgstr ""
+
+#: widget.php:137
+msgid "Custom City Name:"
+msgstr ""
+
+#: widget.php:142
+msgid "Background Color:"
+msgstr ""
+
+#: widget.php:147
+msgid "Text Color:"
+msgstr ""
+
+#: widget.php:173
+msgid "WEATHER WIDGET: You need to set the API key and Location."
+msgstr ""
+
+#: widget.php:332
+msgid "km/h"
+msgstr ""
+
+#: widget.php:332
+msgid "mph"
+msgstr ""
+
+#: widget.php:345
+msgid "humidity:"
+msgstr ""
+
+#: widget.php:346
+msgid "wind:"
+msgstr ""
+
+#: widget.php:475
+msgid "No weather information available"
+msgstr ""

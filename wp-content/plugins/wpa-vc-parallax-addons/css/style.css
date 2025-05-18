@@ -1,0 +1,153 @@
+/*styles*/
+.wpaddons-parallax-wrapper{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+.wpaddons-parallax-left{
+    position: absolute;
+    left: 0;
+    width: 48%;
+    height: 100%;
+}
+.wpaddons-parallax-right{
+    position: absolute;
+    right: 0;
+    width: 48%;
+    height: 100%;
+}
+
+@media(max-width: 767px){
+    .wpaddons-parallax-left{
+        width: 100%;
+    }
+    .wpaddons-parallax-right{
+        display: none;
+    }
+}
+.wpaddons-parallax-wrapper img{
+    -webkit-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    -ms-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.wpaddons-parallax-wrapper .wpaddons-parallax-right img{
+    left: auto;
+    right: 0;
+}
+
+.animated.wpaScale3D {
+    animation-duration: 2s;
+}
+
+.wpaScale3D {
+  animation-name: wpaScale3D;
+}
+
+@keyframes wpaScale3D {
+  from {
+    transform: scale3d(0, 0, 0);
+  }
+  5% {
+    transform: scale3d(0.08, 0.08, 0.08);
+  }
+  10% {
+    transform: scale3d(0.16, 0.16, 0.16);
+  }
+
+  15% {
+    transform: scale3d(0.24, 0.24, 0.24);
+  }
+
+  20% {
+    transform: scale3d(0.32, 0.32, 0.32);
+  }
+
+  25% {
+    transform: scale3d(0.40, 0.40, 0.40);
+  }
+
+  30% {
+    transform: scale3d(0.48, 0.48, 0.48);
+  }
+
+  35% {
+    transform: scale3d(0.56, 0.56, 0.56);
+  }
+
+  40% {
+    transform: scale3d(0.64, 0.64, 0.64);
+  }
+
+  43% {
+    transform: scale3d(0.72, 0.72, 0.72);
+  }
+
+  45% {
+    transform: scale3d(0.80, 0.80, 0.80);
+  }
+
+  47% {
+    transform: scale3d(0.88, 0.88, 0.88);
+  }
+
+  50% {
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+
+  53% {
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+
+  55% {
+    transform: scale3d(0.88, 0.88, 0.88);
+  }
+  57% {
+    transform: scale3d(0.72, 0.72, 0.72);
+  }
+  60% {
+    transform: scale3d(0.64, 0.64, 0.64);
+  }
+
+  65% {
+    transform: scale3d(0.56, 0.56, 0.56);
+  }
+
+  70% {
+    transform: scale3d(0.48, 0.48, 0.48);
+  }
+
+  75% {
+    transform: scale3d(0.48, 0.48, 0.48);
+  }
+
+  80% {
+    transform: scale3d(0.32, 0.32, 0.32);
+  }
+
+  85% {
+    transform: scale3d(0.24, 0.24, 0.24);
+  }
+
+  90% {
+    transform: scale3d(0.16, 0.16, 0.16);
+  }
+
+  95% {
+    transform: scale3d(0.08, 0.08, 0.8);
+  }
+  
+  100% {
+    transform: scale3d(0, 0, 0);
+  }
+}

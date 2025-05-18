@@ -1,0 +1,12 @@
+2022-06-01T21:30:38+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in C:\xampp\htdocs\safaguard\wp-content\plugins\theme-builder-for-elementor\lib\elementor\shortcode.php:91
+Stack trace:
+#0 C:\xampp\htdocs\safaguard\wp-includes\class-wp-hook.php(303): Elementor\TBFE_Shortcode->css_head('')
+#1 C:\xampp\htdocs\safaguard\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\safaguard\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\safaguard\wp-includes\script-loader.php(2083): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\safaguard\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\xampp\htdocs\safaguard\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\xampp\htdocs\safaguard\wp-includes\class-wp-hook.php(303): WP_Customize_Manager->setup_theme('')
+#7 C:\xampp\htdocs\safaguard\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htd en C:\xampp\htdocs\safaguard\wp-content\plugins\theme-builder-for-elementor\lib\elementor\shortcode.php en la línea 91
+

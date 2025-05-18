@@ -1,0 +1,1 @@
+2022-06-09T00:34:49+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\Notes\NoteInitializer::deactivate No se ha encontrado ninguna acción que coincida con wc_gla_cron_daily_notes.
