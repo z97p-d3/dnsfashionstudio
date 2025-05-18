@@ -1,0 +1,37 @@
+body {
+	
+	background: url(../images/fondo-1.jpg)no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.95;
+}
+
+.fondo-principal{
+	
+	background:rgba(215,124,45,1.00);
+}
+
+.br-1{
+	
+	border-right: 1px    ridge rgba(204,204,204,1.00);
+}
+
+.mt-1{
+	
+	margin-top:15px;
+}
+.bt-1{
+	
+	border-top: 1px ridge white;
+}
+
+a{
+	
+	color:rgba(196,23,27,1.00);
+	
+}
+
+.bg-text{
+	color:rgba(199,27,31,1.00);
+}
+
