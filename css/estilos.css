@@ -1,0 +1,150 @@
+@charset "utf-8";
+.cinema-body {
+	background: url(../imagenes/shutterstock_297732950-1.jpg)center center no-repeat;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0.95;
+}
+.nave {
+	background: #1B212D;
+	min-height: 7%;
+	border: none;
+	opacity: 0.95;
+}
+.contenedor {
+	margin-top: 72px;
+}
+.movies-row {
+	background-color: #354658;
+	min-height: 350px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.movies-column {
+	margin-top: 5px;
+	background-color: #20393D;
+	min-height: 330px;
+	
+	/*border: 1px dotted #F1F0F8;*/
+}
+.jumbo-d {
+	background: url(../imagenes/shutterstock_92369284-1.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	min-height: 500px;
+	margin-bottom: 0px;
+	border-radius: 0px !important;
+}
+.titulo-cartelera {
+	min-height: 45px;
+	background-color: #1C1E21;
+	opacity: 0.95;
+}
+.left-column {
+	border-right: 1px dashed #FFFFFF;
+}
+
+@media (max-width:770px) {
+h2 {
+	font-size: 22px;
+}
+.right-column {
+	display: none;
+}
+.movies-row {
+	color: transparent 0.8;
+	min-height: 250px;
+}
+.movies-column {
+	min-height: 230px;
+}
+.jumbo-d {
+	min-height: 400px;
+}
+.titulo-cartelera {
+	font-size: 15px;
+}
+.jumbotron-img {
+	margin-top: 20px;
+}
+}
+/*logo*/
+
+.logo-img {
+	width: 80px;
+	heght: 45px;
+}
+.welcome-title {
+	color: white;
+	margin-left: 10px;
+}
+.jumbotron-img {
+	margin-top: 40px;
+}
+.jumbotron-text {
+	font-size: 16px;
+	color: white;
+	margin-top: 20px;
+}
+.redes-sociales {
+	margin-top: 20px;
+}
+.img-social {
+	width: 40px;
+	height: 40px;
+}
+.titulo-text {
+	font-size: 18px;
+	font-weight: bolder;
+	color: white;
+	padding: 10px;
+}
+.movie-title {
+	color: white;
+	text-align: center center;
+}
+.img-movies {
+	height: 260px;
+	padding: 6px;
+	margin-top: 22px;
+}
+.services-text {
+	 color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.user-data{
+	margin-top:10px;
+	font-size: 18px;
+	color: white;
+	
+}
+.input-element{
+	width:100%;
+	height: 28px;
+	padding: 10px;
+	color: white;
+	background-color: white transparent;
+	border-radius: 4px;
+	border: none;
+	margin-top: 5px;	
+}
+
+.label-class{
+	color: white;
+	font-size: 13px;
+	margin-right: 10px;
+	
+}
+
+.btn-save{
+	width:40%;
+	opacity: 0.95;
+	color: white;
+	
+}
